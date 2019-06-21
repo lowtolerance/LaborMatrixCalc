@@ -23,5 +23,6 @@ CalcPrice(laborHours) {
 !+l::
 WinGetActiveTitle, Title
 ControlGetText, laborHours, WindowsForms10.EDIT.app.0.329445b_r9_ad12, %Title%
+ControlClick, WindowsForms10.BUTTON.app.0.329445b_r9_ad17, %Title%
 price := CalcPrice(laborHours)
 ControlSetText, WindowsForms10.EDIT.app.0.329445b_r9_ad14, %price%, %Title%
