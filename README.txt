@@ -3,7 +3,7 @@ ABOUT
 Labor Matrix Calc is a small program built with AutoHotKey that is designed to make
 calculated labor prices based off a labor matrix dead simple. No more lookups, just
 configure your shop's labor rate, then launch it. Now, whenever you enter your labor
-time for a job in Mitchell, just hit "CTRL+SHIFT+L" to invoke Labor Matrix Calc, which
+time for a job in Mitchell, just hit "ALT+SHIFT+L" to invoke Labor Matrix Calc, which
 will then automatically fill in the proper labor price.
 
 INSTALLATION
