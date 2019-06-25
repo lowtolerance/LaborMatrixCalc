@@ -16,13 +16,13 @@ Gui, Add, Picture, x0 y0 w9 h9 hwndPic, active.png
 Gui, Show, NoActivate
 
 Hotkey, !+l, setLaborPrice
-Hotkey, ~Tab, checkIfLaborHoursFocused
 Hotkey, !+a, disableAuto, On
 
 Hotkey, If, disabled
 Hotkey, !+a, enableAuto
 Hotkey, If
 
+SetTimer, checkIfLaborHoursFocused, 100
 SetTimer, checkIfLaborScreenActive, 500
 return
 
